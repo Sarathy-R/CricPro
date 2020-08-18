@@ -1,0 +1,121 @@
+/* Type your code here */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
+/* General styles*/
+body,
+html {
+	height: 100%;
+}
+
+body {
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	display: flex;
+	flex-direction: row;
+}
+
+h3 {
+	text-transform: capitalize;
+	color: grey;
+	font-weight: 900;
+}
+
+h1 {
+	text-transform: uppercase;
+	color: black;
+	font-weight: 900;
+	text-shadow: 2px 2px #00000069;
+}
+
+header {
+	justify-content: flex-end;
+	padding: 20px 10px 0 0;
+}
+
+
+
+/* table relates styles*/
+.score-board tbody tr td:first-child {
+	padding-left: 15px;
+}
+
+.score-content tr td:nth-child(2) {
+	color: grey
+}
+
+.score-board {
+	width: 70%;
+	border-collapse: collapse;
+	box-shadow: 0px 6px 8px 4px #0000003b;
+}
+
+.score-board tbody tr,
+.score-board thead tr {
+	background-color: white;
+	color: black;
+	border-bottom: 2px solid #80808045;
+}
+
+.score-board tbody tr:hover {
+	background-color: #F5F5F5;
+}
+
+.score-board tbody td {
+	color: black;
+}
+
+td {
+	padding: 8px 0px;
+}
+
+.score-board thead tr:first-child {
+	background-color: #f05136;
+	color: white;
+}
+
+.score-board thead tr td:first-child {
+	padding-left: 15px;
+}
+
+.score-board thead td:nth-child(2) {
+	text-align: end;
+	padding-right: 15px;
+}
+
+/*container related styles*/
+
+.container {
+	display: flex;
+	margin-left: 50px;
+	background-size: cover;
+	flex-direction: column;
+	background-image: url('./assets/background-image1.png');
+}
+
+header,
+footer,
+#title,
+.score-board {
+	margin: 10px 0px;
+}
+
+/* change the font family and spacing as per your project font */
+.footer {
+	/* display: flex;
+	flex-direction: row;
+	align-content: flex-end;
+	position: relative;
+	top: 750px;
+	margin-left: 80px;
+	font-size: 18px;
+	font-family: Nunito Sans;
+	font-style: normal; */
+}
