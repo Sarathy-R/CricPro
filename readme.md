@@ -20,3 +20,4 @@ CricPro is a cricket game interface. The screen displays the scoreboard of India
 ## Snaps
 
 
+![CricPro](https://raw.githubusercontent.com/sarathy711/CricPro/master/ScreenSample.png)
